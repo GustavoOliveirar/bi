@@ -1,0 +1,205 @@
+/* -------------------------------- CUSTOMIZAÇÃO PARA TODOS ( * ) -----------------------------  */
+
+
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+/* --------------------------------- PLANO DE FUNDO DA PÁGINA  --------------------------------  */
+
+
+body {
+
+  background-image: url(./fundo-email.png);
+
+}
+
+/* -------------------------------- CAIXA CENTRAL (ID #LOGIN) -----------------------------  */
+/* ------------------------------  CAIXA FLEXIVEL , CENTRALIZADA --------------------------  */
+
+
+#login {
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+
+}
+
+/* -------------------------------- FORMULÁRIO (CLASSE .CARD) -----------------------------  */
+
+
+.card {
+
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+
+  opacity: 0.97;
+
+}
+
+/* ------------------------- NOME PRINCIPAL DO FORMULÁRIO (. CARD-HEADER) ---------------------------  */
+
+
+.card-header {
+
+  padding-bottom: 50px;
+  opacity: 0.8;
+  color: #4faae0;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+/* ------------------------- CAIXA DE ESPAÇAMENTO DO HEADER ---------------------------  */
+
+
+
+.card-header::after {
+
+  content: "";
+  width: 70px;
+  height: 1px;
+  display: flex;
+  margin-top: -20px;
+  margin-left: -15px;
+
+}
+
+
+/* ------------------------- FORMULÁRIO ---------------------------  */
+
+
+.card-content label {
+
+  color: black;
+  font-size: 12px;
+  opacity: 0.97;
+  font-weight: bolder;
+
+
+
+}
+
+
+/* ------------------------- AREA DO FORMULÁRIO ---------------------------  */
+
+.card-content-area {
+
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  background-color: white;
+
+}
+
+/* ------------------------- BOTÃO DO FORMULÁRIO ---------------------------  */
+
+
+.card-content-area button {
+
+  margin-top: 5vh;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  padding: 8px 0;
+  flex-direction: row;
+  font-size: 100%;
+
+}
+
+/* ------------------------- HOVER BOTÃO DO FORMULÁRIO ---------------------------  */
+
+
+.card-content-area button:hover {
+
+  color: white;
+  transition: 0,05s;
+  background-color: black
+}
+
+/* ------------------------- TEXTO DO FORMULÁRIO ---------------------------  */
+
+
+.card-content-area input {
+
+  margin-top: 10px;
+  padding: 3Px;
+  border: none;
+  border-bottom: 1px solid #4faae0;
+  outline: none;
+
+
+  
+
+}
+
+
+.voa
+
+{
+
+margin-left:60%;
+margin-top: -31%;
+
+}
+
+.voa img
+
+{
+  margin-top: -1%;
+  margin-left: 1%;
+
+  
+}
+
+.voa img:hover
+
+{
+  color: white;
+  transition: 0, 05s;
+  opacity: 70%;
+
+}
+
+
+
+.voa1 
+
+
+
+{
+
+  margin-left:60%;
+  margin-top: -31%;
+
+}
+
+.voa1 img
+
+{
+
+margin-bottom: -126%;
+margin-left: -140%;
+
+}
+
+.voa1 img:hover
+
+{
+  color: white;
+  transition: 0, 05s;
+  opacity: 70%;
+
+
+}
