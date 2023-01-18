@@ -1,3 +1,14 @@
+@keyframes animacao {
+
+from {transform:translateX(100px)}
+to {transform:translateX(1500px)}
+
+
+}
+
+
+
+
 /* -------------------------------- CUSTOMIZAÇÃO PARA TODOS ( * ) -----------------------------  */
 
 
@@ -159,6 +170,8 @@ margin-top: -31%;
 {
   margin-top: -1%;
   margin-left: 1%;
+  opacity: 99%;
+  
 
   
 }
@@ -191,6 +204,13 @@ margin-top: -31%;
 
 margin-bottom: -126%;
 margin-left: -140%;
+animation-name: animacao;
+  animation-duration: 10s,10s;
+  animation-delay: 1s;
+  animation-direction: alternate;
+animation-iteration-count: infinite;
+
+
 
 }
 
